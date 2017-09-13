@@ -1,0 +1,22 @@
+body {
+    background-color: white;
+    padding: 20px;
+}
+header{
+    background-color: white;
+    width: 960px;
+    margin-bottom: 30px;
+}
+section{
+    float: left;
+    width: 400px;
+}
+aside{
+    float: right;
+    width: 200px;
+}
+
+.container{
+    float: right;
+    width: 200px;
+}

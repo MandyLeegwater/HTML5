@@ -1,0 +1,46 @@
+#parent {
+    display: flex;
+}
+#left{
+    float: left;
+    width: calc(100% - 100px);
+}
+#right{
+    float: right;
+    width: 100%;
+}
+#button{
+    width: 100%;
+}
+.form-group{
+    width: 300px;
+    padding: 10px;
+}
+.form-group_geslacht, .form-group_ogen, .form-group_date, .form-group_omschrijving{
+    width: 300px;
+    padding: 10px;
+}
+.form-group input{
+    float: right;
+}
+.form-group_ogen select{
+    float: right;
+    margin-right: 100px;
+}
+.form-group_date input{
+    float: right;
+    margin-right: 15px;
+}
+.form-group_omschrijving textarea{
+    float: right;
+}
+.form-group-buttons input{
+    float: right;
+    padding: 5px;
+}
+.form-right-group{
+    width: 300px;
+    padding: 10px
+}
+.form-right-group input{
+}

@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    padding: 20px;
+}
+
+header{
+    background-color: white;
+    width: 960px;
+    margin-bottom: 30px;
+}
+
+section{
+
+}
+article{
+    display : inline-block;
+    float: left;
+    width : 600px;
+    height : 40em;
+}
+aside{
+    display : inline-block;
+    width : 12em;
+    height : 40em;
+}
+footer{
+    background-color: white;
+    width: 960px;
+    padding: 20px;
+}

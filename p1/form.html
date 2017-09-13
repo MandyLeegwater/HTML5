@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>formulier</title>
+    <link rel="stylesheet" type="text/css" href="css/burton.css">
+</head>
+<body>
+<section>
+    <form action="login.php" method="post">
+        <h1>Burton Education</h1>
+        <label>
+            <span>Voornaam:</span>
+            <input id="firstname" type="text" name="firstname"/>
+        </label><br><br>
+        <label>
+            <span>Tussenvoegsel:</span>
+            <input id="tussenvoegsel" type="email" name="email"/>
+        </label><br><br>
+
+        <label>
+            <span>Achternaam:</span>
+            <input id="lastnam" type="text" name="lastname"/>
+        </label><br><br>
+
+        <label for="Geslacht">Geslacht:</label>
+        <input type="radio" name="Geslacht" value="Man" id="Geslacht"/> Man
+        <input type="radio" name="Geslacht" value="Vrouw"/> Vrouw <br><br>
+
+        <label for="ogen">Kleur ogen:</label>
+        <select name="kleur-ogen" id="ogen">
+            <option>groen</option>
+            <option>blauw</option>
+            <option>bruin</option>
+        </select><br><br>
+
+        <label for="date">Geboortedatum:</label>
+        <input id="date" type="date"><br><br>
+
+        <label for="omschrijving">Omschrijving:</label>
+        <textarea id="omschrijving"></textarea>
+
+    </form>
+</section>
+<aside>
+    <label for="eten">Lekker eten:</label>
+    <input type="checkbox" name="eten" value="sperciebonen" id="eten">Sperciebonen
+    <input type="checkbox" name="eten" value="aardappelen">Aardappelen
+    <input type="checkbox" name="eten" value="hamburger">Hamburger
+</aside>
+<aside>
+    <form>
+        <button>annuleer</button>
+    </form>
+</aside>
+</body>
+</html>
