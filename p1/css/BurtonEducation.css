@@ -1,46 +1,46 @@
-#parent {
-    display: flex;
+body{
+    width: 100%;
+    display: inline-block;
 }
-#left{
+form h1{
+    padding-left: 20px;
+}
+.Form01{
+    width: 100%;
+}
+section.Form01 {
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 23%;
     float: left;
-    width: calc(100% - 100px);
+    height: 200px;
+    line-height: 25px;
 }
-#right{
+section.Form01 input{
     float: right;
-    width: 100%;
+    margin-right: 50px;
 }
-#button{
-    width: 100%;
-}
-.form-group{
-    width: 300px;
-    padding: 10px;
-}
-.form-group_geslacht, .form-group_ogen, .form-group_date, .form-group_omschrijving{
-    width: 300px;
-    padding: 10px;
-}
-.form-group input{
+section.Form01 select{
     float: right;
+    margin-right: 163px;
 }
-.form-group_ogen select{
+section.Form01 textarea{
     float: right;
-    margin-right: 100px;
+    margin-right: 59px;
 }
-.form-group_date input{
-    float: right;
-    margin-right: 15px;
+section.Form02{
+    padding-top: 10px;
+    width: 40%;
+    height: 200px;
 }
-.form-group_omschrijving textarea{
-    float: right;
+section.Form02 input{
+    margin-left: 90px;
 }
-.form-group-buttons input{
-    float: right;
-    padding: 5px;
+section.button{
+    width: 40%;
+    padding-left: 500px;
 }
-.form-right-group{
-    width: 300px;
-    padding: 10px
-}
-.form-right-group input{
+section.button input{
+    width: 100px;
+    height: 30px;
 }

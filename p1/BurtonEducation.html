@@ -6,58 +6,51 @@
     <link rel="stylesheet" type="text/css" href="css/BurtonEducation.css">
 </head>
 <body>
-<form action="login.php" method="post">
+<form action="formtest.php" method="post">
     <h1>Burton Education</h1>
-    <div id="parent">
-        <div id="left">
-            <div class="form-group">
-                <label for="voornaam">Voornaam:</label>
-                <input type="text" name="voornaam" id="voornaam">
-            </div>
-            <div class="form-group">
-                <label for="tussenvoegsel">Tussenvoegsel:</label>
-                <input type="text" name="tussenvoegsel" id="tussenvoegsel">
-            </div>
-            <div class="form-group">
-                <label for="achternaam">Achternaam:</label>
-                <input type="text" name="achternaam" id="achternaam">
-            </div>
-            <div class="form-group_geslacht">
-                <label for="Geslacht">Geslacht:</label>
-                <input type="radio" name="Geslacht" value="Man" id="Geslacht"/> Man
-                <input type="radio" name="Geslacht" value="Vrouw"/> Vrouw
-            </div>
-            <div class="form-group_ogen">
-                <label for="ogen">Kleur ogen:</label>
-                <select name="kleur-ogen" id="ogen">
-                    <option>groen</option>
-                    <option>blauw</option>
-                    <option>bruin</option>
-                </select>
-            </div>
-            <div class="form-group_date">
-                <label for="date">Geboortedatum:</label>
-                <input type="date" name="date" id="date"/>
-            </div>
-            <div class="form-group_omschrijving">
-                <label for="omschrijving">Omschrijving:</label>
-                <textarea name="omschrijving" cols="20" id="omschrijving"></textarea>
-            </div>
-        </div>
-        <div id="right">
-            <div class="form-right-group">
-                <label>Lekker eten:</label><br>
-                <input type="checkbox" name="aardappelen" value="aardappelen">Aardappelen<br>
-                <input type="checkbox" name="sperciebonen" value="sperciebonen">Sperciebonen<br>
-                <input type="checkbox" name="hamburger" value="hamburger">Hamburger
-            </div>
-        </div>
-    </div>
-    <div id="button">
-        <div class="form-group-buttons">
-            <input type="button" name="annuleer" value="annuleer">
-            <input type="submit" name="submit" value="submit">
-        </div>
+    <div id="Form01">
+    <section class="Form01">
+
+        <label for="voornaam">Voornaam:</label>
+        <input type="text" name="voornaam" id="voornaam"><br>
+
+        <label for="tussenvoegsel">Tussenvoegsel:</label>
+        <input type="text" name="tussenvoegsel" id="tussenvoegsel"><br>
+
+        <label for="achternaam">Achternaam:</label>
+        <input type="text" name="achternaam" id="achternaam"><br>
+
+        <label for="Geslacht">Geslacht:</label>
+        <input type="radio" name="Geslacht" value="Man" id="Geslacht"/> &nbsp;Man
+        <input type="radio" name="Geslacht" value="Vrouw"/> &nbsp; Vrouw<br>
+
+        <label for="ogen">Kleur ogen:</label>
+        <select name="kleur-ogen" id="ogen">
+            <option>groen</option>
+            <option>blauw</option>
+            <option>bruin</option>
+        </select><br>
+
+        <label for="date">Geboortedatum:</label>
+        <input type="date" name="date" id="date"/><br>
+
+        <label for="omschrijving">Omschrijving:</label>
+        <textarea name="omschrijving" cols="20" id="omschrijving"></textarea>
+    </section>
+    <section class="Form02">
+        <label>Lekker eten:</label><br>
+        <input type="checkbox" name="lekker eten" value="aardappelen">
+        <span class="checkbox">aardappelen</span><br>
+        <input type="checkbox" name="sperciebonen" value="sperciebonen">
+        <span class="checkbox">Sperciebonen</span><br>
+        <input type="checkbox" name="hamburger" value="hamburger">
+        <span class="checkbox">Hamburger</span>
+    </section>
+
+    <section class="button">
+        <input type="button" name="annuleer" value="annuleer">
+        <input type="submit" name="submit" value="ok">
+    </section>
     </div>
 </form>
 </body>
