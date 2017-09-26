@@ -1,6 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+#wrapper{
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(251,235,235);
+    padding: 20px;
+    height: 718px;
+}
 body{
-    width: 100%;
-    display: inline-block;
+    font-family: "Arial", "Sans Serif";
+    line-height: 24px;
 }
 form h1{
     padding-left: 20px;
@@ -11,7 +21,7 @@ form h1{
 section.Form01 {
     padding-top: 10px;
     padding-left: 10px;
-    width: 23%;
+    width: 40%;
     float: left;
     height: 200px;
     line-height: 25px;
@@ -22,19 +32,20 @@ section.Form01 input{
 }
 section.Form01 select{
     float: right;
-    margin-right: 150px;
+    margin-right: 152px;
 }
 section.Form01 textarea{
     float: right;
     margin-right: 50px;
-    width: 154px;
+    width: 161px;
+    height: 80px;
 }
 section.Form01 input#date{
-    width: 155px;
+    width: 161px;
 }
 section.Form01 input#Geslacht{
     float: none;
-    margin-left: 80px;
+    margin-left: 92px;
     margin-right: 0;
 }
 section.Form01 input#Vrouw{
@@ -44,14 +55,14 @@ section.Form01 input#Vrouw{
 }
 section.Form02{
     padding-top: 10px;
-    width: 40%;
+    width: 70%;
     height: 200px;
 }
 section.Form02 input{
     margin-left: 90px;
 }
 section.button{
-    width: 40%;
+    width: 70%;
     padding-left: 400px;
 }
 section.button input{

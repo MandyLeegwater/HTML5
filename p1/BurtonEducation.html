@@ -6,52 +6,54 @@
     <link rel="stylesheet" type="text/css" href="css/BurtonEducation.css">
 </head>
 <body>
-<form action="formtest.php" method="post">
-    <h1>Burton Education</h1>
-    <div id="Form01">
-    <section class="Form01">
+<div id="wrapper">
+    <form action="formtest.php" method="post">
+        <h1>Burton Education</h1>
+        <div id="Form01">
+            <section class="Form01">
 
-        <label for="voornaam">Voornaam:</label>
-        <input type="text" name="voornaam" id="voornaam"><br>
+                <label for="voornaam">Voornaam:</label>
+                <input type="text" name="voornaam" id="voornaam"><br>
 
-        <label for="tussenvoegsel">Tussenvoegsel:</label>
-        <input type="text" name="tussenvoegsel" id="tussenvoegsel"><br>
+                <label for="tussenvoegsel">Tussenvoegsel:</label>
+                <input type="text" name="tussenvoegsel" id="tussenvoegsel"><br>
 
-        <label for="achternaam">Achternaam:</label>
-        <input type="text" name="achternaam" id="achternaam"><br>
+                <label for="achternaam">Achternaam:</label>
+                <input type="text" name="achternaam" id="achternaam"><br>
 
-        <label for="Geslacht">Geslacht:</label>
-        <input type="radio" name="Geslacht" value="Man" id="Geslacht"/> &nbsp;Man
-        <input type="radio" name="Geslacht" value="Vrouw" id="Vrouw"/> &nbsp; Vrouw<br>
+                <label for="Geslacht">Geslacht:</label>
+                <input type="radio" name="Geslacht" value="Man" id="Geslacht"/> &nbsp;Man
+                <input type="radio" name="Geslacht" value="Vrouw" id="Vrouw"/> &nbsp; Vrouw<br>
 
-        <label for="ogen">Kleur ogen:</label>
-        <select name="kleur-ogen" id="ogen">
-            <option>groen</option>
-            <option>blauw</option>
-            <option>bruin</option>
-        </select><br>
+                <label for="ogen">Kleur ogen:</label>
+                <select name="kleur-ogen" id="ogen">
+                    <option>groen</option>
+                    <option>blauw</option>
+                    <option>bruin</option>
+                </select><br>
 
-        <label for="date">Geboortedatum:</label>
-        <input type="date" name="date" id="date"/><br>
+                <label for="date">Geboortedatum:</label>
+                <input type="date" name="date" id="date"/><br>
 
-        <label for="omschrijving">Omschrijving:</label>
-        <textarea name="omschrijving" cols="20" id="omschrijving"></textarea>
-    </section>
-    <section class="Form02">
-        <label>Lekker eten:</label><br>
-        <input type="checkbox" name="lekker eten" value="aardappelen">
-        <span class="checkbox">aardappelen</span><br>
-        <input type="checkbox" name="sperciebonen" value="sperciebonen">
-        <span class="checkbox">Sperciebonen</span><br>
-        <input type="checkbox" name="hamburger" value="hamburger">
-        <span class="checkbox">Hamburger</span>
-    </section>
+                <label for="omschrijving">Omschrijving:</label>
+                <textarea name="omschrijving" cols="20" id="omschrijving"></textarea>
+            </section>
+            <section class="Form02">
+                <label>Lekker eten:</label><br>
+                <input type="checkbox" name="lekker eten" value="aardappelen">
+                <span class="checkbox">aardappelen</span><br>
+                <input type="checkbox" name="sperciebonen" value="sperciebonen">
+                <span class="checkbox">Sperciebonen</span><br>
+                <input type="checkbox" name="hamburger" value="hamburger">
+                <span class="checkbox">Hamburger</span>
+            </section>
 
-    <section class="button">
-        <input type="button" name="annuleer" value="annuleer">
-        <input type="submit" name="submit" value="ok">
-    </section>
-    </div>
-</form>
+            <section class="button">
+                <input type="button" name="annuleer" value="annuleer">
+                <input type="submit" name="submit" value="ok">
+            </section>
+        </div>
+    </form>
+</div>
 </body>
 </html>
