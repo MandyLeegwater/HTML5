@@ -22,11 +22,25 @@ section.Form01 input{
 }
 section.Form01 select{
     float: right;
-    margin-right: 163px;
+    margin-right: 150px;
 }
 section.Form01 textarea{
     float: right;
-    margin-right: 59px;
+    margin-right: 50px;
+    width: 154px;
+}
+section.Form01 input#date{
+    width: 155px;
+}
+section.Form01 input#Geslacht{
+    float: none;
+    margin-left: 80px;
+    margin-right: 0;
+}
+section.Form01 input#Vrouw{
+    float: none;
+    margin-left: 10px;
+    margin-right: 0;
 }
 section.Form02{
     padding-top: 10px;
@@ -38,7 +52,7 @@ section.Form02 input{
 }
 section.button{
     width: 40%;
-    padding-left: 500px;
+    padding-left: 400px;
 }
 section.button input{
     width: 100px;
